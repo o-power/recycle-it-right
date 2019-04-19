@@ -1,4 +1,8 @@
-.navalert-container {
+body {
+    padding-top: 60px;
+}
+
+.navbar-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -8,11 +12,51 @@
 }
 
 .stats-container {
+    height: 75vh;
+    font-size: 25px;
+    
+    /*background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recycling-stat1 {
+    padding: 25px 0;
+}
+
+.recycling-stat2 {
+    padding: 25px 0;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.trash-icon {
+    font-size: 50px;
+    padding: 5px 5px;
+}
+
+.icon-y {
+    color: red;
+}
+
+.icon-n {
     
 }
 
+.person-icon {
+    font-size: 75px;
+    padding: 5px 10px;
+}
+
 .economics-container {
-    
 }
 
 .principle-container {

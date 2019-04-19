@@ -11,9 +11,9 @@
 </head>
 <body>
 	<!-- navbar -->
-	<div class="container-fluid navalert-container">
+	<div class="container-fluid navbar-container">
 		<!-- remove burger icon and expand on large screens -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 			<!-- burger icon -->
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
@@ -41,13 +41,25 @@
 	<!-- stats -->
 	<div class="container-fluid stats-container">
 		<div class="row">
-			<div class="col-12">
-				<i class="fas fa-trash"></i><i class="fas fa-trash"></i><i class="fas fa-trash"></i>
-				<span>1 in 3 recycling bins cannot be recycled as it is contaminated with unrecyclable rubbish.</span>
+			<div class="offset-1 col-10 recycling-stat1">
+				<div class="row">
+					<div class="col-3 icon-container">
+						<i class="fas fa-trash trash-icon icon-y"></i><i class="fas fa-trash trash-icon icon-n"></i><i class="fas fa-trash trash-icon icon-n"></i>
+					</div>
+					<div class="col-9">
+						1 in 3 recycling bins cannot be recycled as it is contaminated with unrecyclable rubbish.
+					</div>
+				</div>
 			</div>
-			<div class="col-12">
-				<i class="fas fa-male"></i><i class="fas fa-male"></i>
-				<span>1 in 2 people admits to deliberately contaminating their recycling bin.</span>
+			<div class="offset-1 col-10 recycling-stat2">
+				<div class="row">
+					<div class="col-3 icon-container">
+						<i class="fas fa-male person-icon icon-y"></i><i class="fas fa-male person-icon icon-n"></i>
+					</div>
+					<div class="col-9">
+						1 in 2 people admits to deliberately contaminating their recycling bin.
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
