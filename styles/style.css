@@ -57,6 +57,19 @@ body {
 }
 
 .economics-container {
+    font-size: 25px;
+}
+
+.fas.fa-trash.collect-icon {
+    font-size: 35px;
+}
+
+.fas.fa-truck.collect-icon {
+    font-size: 75px;
+}
+
+.fas.fa-arrow-down {
+    font-size: 35px;
 }
 
 .principle-container {
