@@ -12,7 +12,7 @@ body {
 }
 
 .stats-container {
-    height: 75vh;
+    /*height: 100vh;*/
     font-size: 25px;
     
     /*background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
@@ -21,9 +21,9 @@ body {
     -o-background-size: cover;
     background-size: cover;*/
     
-    display: flex;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 .recycling-stat1 {
@@ -62,6 +62,9 @@ body {
 
 .fas.fa-trash.collect-icon {
     font-size: 35px;
+    padding: 0 5px;
+    position: relative;
+    top: 5px;
 }
 
 .fas.fa-truck.collect-icon {
@@ -70,6 +73,22 @@ body {
 
 .fas.fa-arrow-down {
     font-size: 35px;
+}
+
+.fas.fa-cube.separate-icon {
+    font-size: 45px;
+    padding: 0 5px;
+}
+
+
+.fas.fa-ship.sell-icon {
+    font-size: 45px;
+    padding: 0 5px;
+}
+
+.fas.fa-hand-holding-usd.sell-icon {
+    font-size: 45px;
+    padding: 0 5px;
 }
 
 .principle-container {
