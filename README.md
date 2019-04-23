@@ -14,6 +14,8 @@ As a householder, I want to be able to explore a list of items so that I can see
 
 As a householder, I want to be able to see an explanation for why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
 
+As a householder, I want to be able to download a list of recyclable items so that I can refer to it when recycling.
+
 ## Technologies
 1. HTML
 2. CSS
