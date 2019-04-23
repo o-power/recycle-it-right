@@ -34,6 +34,9 @@ Test stories for features/functionality. Different screen sizes. Different brows
 ## Deployment
 
 ## Credits
+- Contamination statistics taken from [repak.ie](https://repak.ie/our-campaigns/news/save-our-nation-from-contamination/) (accessed 23rd April 2019).
+- List of recyclable items taken from [mywaste.ie](https://www.mywaste.ie/what-to-do-with-my-recycling/) (accessed 23rd April 2019).
+
 ### Content
 ### Media
 ### Acknowledgements
