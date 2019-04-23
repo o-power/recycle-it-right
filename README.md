@@ -6,6 +6,13 @@ A live demo can be found here.
 
 ## UX
 User stories. Wireframes.
+As a householder, I want to know what I can and can't recycle so that I only place recyclable items in the recycling bin.
+
+As a householder, I want to know why I can't place just any plastic or paper in the recycling bin so that I am motivated to recycle correctly.
+
+As a householder, I want to be able to explore a list of items so that I can see what is and isn't recyclable.
+
+As a householder, I want to be able to see an explanation for why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
 
 ## Technologies
 1. HTML
