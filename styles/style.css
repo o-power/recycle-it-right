@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 body {
+    /* make space for the navbar */
     padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-container {
+    /* fix navbar in place */
     position: absolute;
     top: 0;
     left: 0;
