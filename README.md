@@ -18,7 +18,7 @@ As a householder, I want to be able to see an explanation for why items are/are 
 
 As a householder, I want to be able to download a list of recyclable items so that I can refer to it when recycling.
 
-## Technologies
+## Technologies/Libraries
 1. HTML
 2. CSS
 3. Bootstrap
@@ -30,6 +30,8 @@ As a householder, I want to be able to download a list of recyclable items so th
 
 ## Testing
 Test stories for features/functionality. Different screen sizes. Different browsers.
+[W3C Markup Validation Service](https://validator.w3.org/)
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
 
