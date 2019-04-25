@@ -36,9 +36,9 @@ Test stories for features/functionality. Different screen sizes. Different brows
 ## Deployment
 
 ## Credits
+### Content
 - Contamination statistics taken from [repak.ie](https://repak.ie/our-campaigns/news/save-our-nation-from-contamination/) (accessed 23rd April 2019).
 - List of recyclable items taken from [mywaste.ie](https://www.mywaste.ie/what-to-do-with-my-recycling/) (accessed 23rd April 2019).
-
-### Content
+- Quote "If you’re happy enough to empty your recycle bin on the kitchen floor, we’re happy enough to take it" taken from [Irish Examiner Special Report on Recycling Bin Contamination](https://www.irishexaminer.com/breakingnews/specialreports/special-report-failure-of-irish-households-to-recycle-properly-is-a-massive-waste-of-time-829833.html) (accessed 25th April 2019).
 ### Media
 ### Acknowledgements
