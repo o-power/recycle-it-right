@@ -10,15 +10,11 @@ A live demo can be found here.
 ### Wireframes
 Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-it-right/tree/master/wireframes) folder.
 ### User stories
-As a householder, I want to know how bad a problem contamination in recycling bins is so that I am motivated to recycle properly.
-
-As a householder, I want to know what condition items should be in before being placed in a recycling bin so that I can ensure my recycling bin is not contaminated.
-
-As a householder, I want to be able to explore a list of items so that I can see what is and isn't recyclable.
-
-As a householder, I want to be able to see an explanation of why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
-
-As a householder, I want to be able to download a list of recyclable items so that I can refer to it when recycling.
+1. As a householder, I want to know how bad a problem contamination in recycling bins is so that I am motivated to recycle properly.
+2. As a householder, I want to know what condition items should be in before being placed in a recycling bin so that I can ensure my recycling bin is not contaminated.
+3. As a householder, I want to be able to explore a list of items so that I can see what is and isn't recyclable.
+4. As a householder, I want to be able to see an explanation of why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
+5. As a householder, I want to be able to download a list of recyclable items so that I can refer to it when recycling.
 
 ## Technologies/Libraries
 1. HTML
