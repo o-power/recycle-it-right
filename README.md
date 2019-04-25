@@ -21,8 +21,8 @@ As a householder, I want to be able to download a list of recyclable items so th
 ## Technologies/Libraries
 1. HTML
 2. CSS
-3. Bootstrap
-4. Flexbox
+3. [Bootstrap v4.3](https://getbootstrap.com/)
+4. [Font Awesome](https://fontawesome.com/)
 
 ## Features
 ### Existing
@@ -34,6 +34,9 @@ Test stories for features/functionality. Different screen sizes. Different brows
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
+The site is hosted using GitHub pages and is deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+
+To run locally, clone this repository directly into the editor of your choice by pasting `git clone https://github.com/o-power/recycle-it-right.git` into your terminal. To cut ties with this repository, type `git remote rm origin` into the terminal.
 
 ## Credits
 ### Content
