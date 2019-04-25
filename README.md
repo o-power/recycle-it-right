@@ -7,14 +7,16 @@ The Recycle it Right website motivates and explains the key concepts behind deci
 A live demo can be found here.
 
 ## UX
-User stories. Wireframes.
-As a householder, I want to know what I can and can't recycle so that I only place recyclable items in the recycling bin.
+### Wireframes
+Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-it-right/tree/master/wireframes) folder.
+### User stories
+As a householder, I want to know how bad a problem contamination in recycling bins is so that I am motivated to recycle properly.
 
-As a householder, I want to know why I can't place just any plastic or paper in the recycling bin so that I am motivated to recycle correctly.
+As a householder, I want to know what condition items should be in before being placed in a recycling bin so that I can ensure my recycling bin is not contaminated.
 
 As a householder, I want to be able to explore a list of items so that I can see what is and isn't recyclable.
 
-As a householder, I want to be able to see an explanation for why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
+As a householder, I want to be able to see an explanation of why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
 
 As a householder, I want to be able to download a list of recyclable items so that I can refer to it when recycling.
 
