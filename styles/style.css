@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 body {
-    /* make space for the navbar */
-    padding-top: 60px;
     font-family: 'Roboto', sans-serif;
+    color: #000;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------navbar */
 .navbar-container {
-    /* fix navbar in place */
+    /* fix navbar container in place */
     position: absolute;
     top: 0;
     left: 0;
@@ -16,31 +23,95 @@ body {
     padding-right: 0;
 }
 
+.navbar {
+    background-color: #669900;
+}
+
+.custom-navbar-toggler-icon i {
+    font-size: 24px; 
+}
+
+.navbar-dark .navbar-toggler {
+    border: 0;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* want dropdown link to be same color as Home link */
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #77b300;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dropdown-menu {
+    background-color: #669900;
+    border: 0px;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #77b300;
+}
+
+/*------------------------------------------stats section disposal-dump-garbage-128421 */
 .stats-container {
-    /*height: 100vh;*/
-    font-size: 25px;
+    height: 100vh;
     
-    /*background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
+    background: url('../images/bottles-careless-daylight-medium.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;*/
-    
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
+    background-size: cover;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .recycling-stat1 {
-    padding: 25px 0;
+    /* take account of space occupied by navbar */
+    box-sizing: border-box;
+    height: 50%;
+    padding-top: 90px;
+    /* center contents */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .recycling-stat2 {
-    padding: 25px 0;
+    /* take account of space occupied by navbar */
+    box-sizing: border-box;
+    height: 50%;
+    padding-bottom: 30px;
+    /* center contents */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-container {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .trash-icon {
@@ -49,11 +120,11 @@ body {
 }
 
 .icon-y {
-    color: red;
+    color: #000;
 }
 
 .icon-n {
-    
+    color: #669900;
 }
 
 .person-icon {
@@ -61,6 +132,7 @@ body {
     padding: 5px 10px;
 }
 
+/*------------------------------------------economics section */
 .economics-container {
     font-size: 25px;
 }
