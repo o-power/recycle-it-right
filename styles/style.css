@@ -12,6 +12,13 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
 /*------------------------------------------navbar */
 .navbar-container {
     /* fix navbar container in place */
@@ -66,15 +73,19 @@ h2 {
     background-color: #77b300;
 }
 
-/*------------------------------------------stats section disposal-dump-garbage-128421 */
+/*------------------------------------------stats section */
 .stats-container {
     height: 100vh;
     
-    background: url('../images/bottles-careless-daylight-medium.jpg') no-repeat top left fixed;
+    background: url('../images/apartment_bins.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.stats-container h2 {
+    color: #fff;
 }
 
 .opaque-overlay {
@@ -134,39 +145,39 @@ h2 {
 
 /*------------------------------------------economics section */
 .economics-container {
-    font-size: 25px;
+   /*padding-top: 24px;
+    padding-bottom: 24px;*/
 }
 
-.fas.fa-trash.collect-icon {
-    font-size: 35px;
-    padding: 0 5px;
-    position: relative;
-    top: 5px;
+.economics-container h2 {
+    color: #669900;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .fas.fa-truck.collect-icon {
     font-size: 75px;
+    line-height: 100px;
 }
 
-.fas.fa-arrow-down {
+.fas.fa-arrow-down, .fas.fa-arrow-right {
     font-size: 35px;
+    line-height: 100px;
 }
 
 .fas.fa-cube.separate-icon {
-    font-size: 45px;
+    font-size: 55px;
     padding: 0 5px;
-}
-
-
-.fas.fa-ship.sell-icon {
-    font-size: 45px;
-    padding: 0 5px;
+    line-height: 100px;
 }
 
 .fas.fa-hand-holding-usd.sell-icon {
-    font-size: 45px;
+    font-size: 75px;
     padding: 0 5px;
+    line-height: 100px;
 }
+
+
 
 .principle-container {
     
