@@ -177,12 +177,43 @@ h3 {
     line-height: 100px;
 }
 
-
-
+/*------------------------------------------principle section */
 .principle-container {
     
 }
 
+.principle-container h2 {
+    color: #000;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.principle-container .card {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*------------------------------------------categories section */
 .categories-container {
     
+}
+
+.categories-container h2 {
+    color: #000;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.categories-container .card {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.categories-container .btn {
+    background-color: #000;
+    border-color: #000;
 }
