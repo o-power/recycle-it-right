@@ -217,3 +217,14 @@ h3 {
     background-color: #000;
     border-color: #000;
 }
+
+/*------------------------------------------footer */
+.footer-container {
+    background-color: #669900;
+}
+
+.footer-container h3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #fff;
+}
