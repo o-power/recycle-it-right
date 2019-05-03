@@ -43,3 +43,5 @@ To run locally, clone this repository directly into the editor of your choice by
 - Quote "If you’re happy enough to empty your recycle bin on the kitchen floor, we’re happy enough to take it" taken from [Irish Examiner Special Report on Recycling Bin Contamination](https://www.irishexaminer.com/breakingnews/specialreports/special-report-failure-of-irish-households-to-recycle-properly-is-a-massive-waste-of-time-829833.html) (accessed 25th April 2019).
 ### Media
 ### Acknowledgements
+- Jumping arrow animation inspired by [https://careers.adia.ae/](https://careers.adia.ae/) (accessed 3rd May 2019).
+- Shortcut icon generated using [Favicon Generator](https://realfavicongenerator.net/) (accessed 3rd May 2019).
