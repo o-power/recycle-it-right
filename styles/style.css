@@ -95,7 +95,7 @@ h3 {
     color: #000;
 }
 
-.jumbotron {
+.stats-container .jumbotron {
     margin: 0;
     padding: 15px 15px;
     width: 90%;
@@ -188,36 +188,46 @@ h3 {
 }
 
 .economics-container h2 {
-    color: #669900;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
 .fas.fa-truck.collect-icon {
-    font-size: 75px;
+    font-size: 72px;
     line-height: 100px;
 }
 
 .fas.fa-arrow-down, .fas.fa-arrow-right {
-    font-size: 35px;
+    font-size: 36px;
     line-height: 100px;
 }
 
 .fas.fa-cube.separate-icon {
-    font-size: 55px;
+    font-size: 54px;
     padding: 0 5px;
     line-height: 100px;
 }
 
 .fas.fa-hand-holding-usd.sell-icon {
-    font-size: 75px;
+    font-size: 72px;
     padding: 0 5px;
     line-height: 100px;
 }
 
 /*------------------------------------------principle section */
 .principle-container {
-    
+    background: url('../images/landing_page_image_edited.jpg') no-repeat bottom left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.principle-container .jumbotron {
+    margin: 24px 15px;
+    padding: 0 15px;
+    background-color: rgb(255,255,255,0.5);
+    text-align: center;
 }
 
 .principle-container h2 {
@@ -233,6 +243,15 @@ h3 {
     margin-right: 15px;
 }
 
+.principle-container .card .card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.principle-container .card i {
+    color: #669900;
+    font-size: 1.5em;
+}
 /*------------------------------------------categories section */
 .categories-container {
     
@@ -251,9 +270,19 @@ h3 {
     margin-right: 15px;
 }
 
+.categories-container .card .card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .categories-container .btn {
-    background-color: #000;
-    border-color: #000;
+    background-color: #669900;
+    border-color: #669900;
+}
+
+.categories-container .btn:hover {
+    background-color: #77b300;
+    border-color: #77b300;
 }
 
 /*------------------------------------------footer */
