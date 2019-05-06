@@ -326,8 +326,13 @@ h3 {
     background-color: #fff;
 }
 
-.items-container .card i {
+.items-container .card .fas.fa-check {
     color: #669900;
+    font-size: 1.5em;
+}
+
+.items-container .card .fas.fa-times {
+    color: #ff0000;
     font-size: 1.5em;
 }
 
