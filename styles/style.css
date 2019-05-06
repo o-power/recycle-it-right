@@ -103,29 +103,12 @@ h3 {
 }
 
 .recycling-stat1 {
-    /* take account of space occupied by navbar */
-    /*box-sizing: border-box;*/
     height: 50%;
     padding-bottom: 32px;
-    /*padding: 32px 32px;*/
-    /*padding-top: 90px;*/
-    /* center contents */
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .recycling-stat2 {
-    /* take account of space occupied by navbar */
-    /*box-sizing: border-box;*/
     height: 50%;
-    /*padding-bottom: 32px;*/
-    /*padding: 32px 32px;*/
-    /*padding-bottom: 30px;*/
-    /* center contents */
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .icon-container {
@@ -176,15 +159,21 @@ h3 {
     display: block;
     width: 50px;
     font-size: 72px;
+    color: #669900;
+    /* position this arrow closer to top one */
     position: absolute;
     top: 36px;
-    color: #669900;
 }
 
 /*------------------------------------------economics section */
 .economics-container {
-   /*padding-top: 24px;
-    padding-bottom: 24px;*/
+}
+
+.economics-container .jumbotron {
+    margin: 24px 15px;
+    padding: 0 15px;
+    background-color: #fff;
+    text-align: center;
 }
 
 .economics-container h2 {
@@ -230,6 +219,10 @@ h3 {
     text-align: center;
 }
 
+.principle-container .jumbotron.jumbotron-bottom {
+    margin-top: 0;
+}
+
 .principle-container h2 {
     color: #000;
     padding-top: 24px;
@@ -254,7 +247,13 @@ h3 {
 }
 /*------------------------------------------categories section */
 .categories-container {
-    
+}
+
+.categories-container .jumbotron {
+    margin: 24px 15px;
+    padding: 0 15px;
+    background-color: #fff;
+    text-align: center;
 }
 
 .categories-container h2 {
@@ -264,7 +263,7 @@ h3 {
 }
 
 .categories-container .card {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 24px;
     margin-left: 15px;
     margin-right: 15px;
