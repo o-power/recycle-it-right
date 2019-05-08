@@ -250,7 +250,6 @@ h3 {
 
 .principle-container .card i {
     color: #669900;
-    font-size: 1.5em;
 }
 /*------------------------------------------categories section */
 .categories-container {
@@ -304,8 +303,15 @@ h3 {
 }
 
 .items-container h2 {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+}
+
+.items-container .jumbotron .fas.fa-check {
+    color: #669900;
+}
+
+.items-container .jumbotron .fas.fa-times {
+    color: #ff0000;
 }
 
 .items-container .card-container {
@@ -326,14 +332,12 @@ h3 {
     background-color: #fff;
 }
 
-.items-container .card .fas.fa-check {
+.items-container .card .btn-link .fas.fa-check {
     color: #669900;
-    font-size: 1.5em;
 }
 
-.items-container .card .fas.fa-times {
+.items-container .card .btn-link .fas.fa-times {
     color: #ff0000;
-    font-size: 1.5em;
 }
 
 .items-container .btn-link {
