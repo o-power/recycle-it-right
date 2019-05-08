@@ -27,6 +27,7 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 ## Features
 ### Existing
 ### Future
+- Reduce the size of the images to improve their load speed.
 
 ## Testing
 Test stories for features/functionality. Different screen sizes. Different browsers.
