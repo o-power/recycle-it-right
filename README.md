@@ -45,7 +45,8 @@ To run locally, clone this repository directly into the editor of your choice by
 - List of recyclable items taken from [mywaste.ie](https://www.mywaste.ie/what-to-do-with-my-recycling/) (accessed 23rd April 2019).
 - Quote "If you’re happy enough to empty your recycle bin on the kitchen floor, we’re happy enough to take it" taken from [Irish Examiner Special Report on Recycling Bin Contamination](https://www.irishexaminer.com/breakingnews/specialreports/special-report-failure-of-irish-households-to-recycle-properly-is-a-massive-waste-of-time-829833.html) (accessed 25th April 2019).
 ### Media
-- All images were taken by myself. Images were edited and their file size reduced using Gimp. 
+- All images were taken by myself. Images were edited and their file size reduced using Gimp.
+- The shortcut icon is a [Font Awesome Icon](https://fontawesome.com/license) with the color changed.
 ### Acknowledgements
 - Jumping arrow animation inspired by [https://careers.adia.ae/](https://careers.adia.ae/) (accessed 3rd May 2019).
 - Shortcut icon generated using [Favicon Generator](https://realfavicongenerator.net/) (accessed 3rd May 2019).
