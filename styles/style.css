@@ -330,6 +330,7 @@ h3 {
 
 .items-container .card-header {
     background-color: #fff;
+    padding: 0;
 }
 
 .items-container .card .btn-link .fas.fa-check {
@@ -343,22 +344,30 @@ h3 {
 .items-container .btn-link {
     font-size: 20px;
     font-weight: 700;
+    text-align: left;
     margin: 0;
-    padding: 0;
+    padding: 15px;
+    width: 100%;
 }
 
-/*
-.items-container .btn-link:after {*/
+.items-container .btn-link.collapsed:after {
+    /* plus sign for closed accordion */
+    /* from https://www.w3schools.com/howto/howto_js_accordion.asp */
+    content: '\002B';
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.items-container .btn-link:not(collapsed):after {
     /* minus sign for open accordion */
     /* from https://www.w3schools.com/howto/howto_js_accordion.asp */
-/*    content: '\2212';
+    content: '\2212';
     float: right;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.items-container .btn-link.collapsed:after {*/
-    /* plus sign for closed accordion */
-/*    content: '\002B';
-}*/
 /*------------------------------------------footer */
 .footer-container {
     background-color: #669900;
