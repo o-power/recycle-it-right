@@ -347,17 +347,18 @@ h3 {
     padding: 0;
 }
 
-.items-container .btn-link:after {
+/*
+.items-container .btn-link:after {*/
     /* minus sign for open accordion */
     /* from https://www.w3schools.com/howto/howto_js_accordion.asp */
-    content: '\2212';
+/*    content: '\2212';
     float: right;
 }
 
-.items-container .btn-link.collapsed:after {
+.items-container .btn-link.collapsed:after {*/
     /* plus sign for closed accordion */
-    content: '\002B';
-}
+/*    content: '\002B';
+}*/
 /*------------------------------------------footer */
 .footer-container {
     background-color: #669900;
