@@ -4,7 +4,7 @@ Contamination in recycling bins in Ireland is a major issue with a reported 36% 
 The Recycle it Right website motivates and explains the key concepts behind deciding which household items can go into recycling bins. The website is clear and simple with a single goal which is not diluted by any other information. The motivation comes from the main statistics around contamination and a reminder that recycling is a business which must be economically viable.
 
 ## Demo
-A live demo can be found here.
+A live demo can be found [here](https://o-power.github.io/recycle-it-right/) on Github Pages.
 
 ## UX
 ### Wireframes
