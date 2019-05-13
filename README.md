@@ -1,10 +1,11 @@
 # Recycle it Right
 Contamination in recycling bins in Ireland is a major issue with a reported 36% of bins being contaminated in certain areas. China's decision in 2016 to stop importing plastic waste made the export of plastic waste from Ireland more difficult and less economically viable. Contamination in recycling bins exacerbates the problem: it costs money to remove and makes it harder to sell the plastic waste to those countries which have the capabilities to import and recycle it.
 
-The Recycle it Right website motivates and explains the key concepts behind deciding which household items can go into recycling bins. The website is clear and simple with a single goal which is not diluted by any other information. The motivation comes from the main statistics around contamination and a reminder that recycling is a business which must be economically viable.
+The Recycle it Right website motivates and explains the key concepts behind deciding which household items can go into recycling bins. The website is clear and simple with a single goal which is not diluted by any other information. The motivation comes from the main statistics around contamination and a reminder that recycling waste in Ireland has to be exported.
 
 ## Demo
 A live demo can be found [here](https://o-power.github.io/recycle-it-right/) on Github Pages.
+<img src="images/website_deviceframes" alt="Image of website on iPhone and iPad">
 
 ## UX
 ### Wireframes
@@ -26,6 +27,7 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 
 ## Features
 ### Existing
+- 
 ### Future
 - Reduce the size of the images to improve their load speed.
 
