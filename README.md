@@ -39,11 +39,15 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 - Reduce the size of the images to improve their load speed. Or use a content delivery network (CDN).
 
 ## Testing
-The HTML was checked using the [W3C Markup Validation Service](https://validator.w3.org/). This helped to identify default values in the aria attributes which I had not changed after copying the code from the Bootstrap documentation.
+The HTML was checked using the [W3C Markup Validation Service](https://validator.w3.org/). This helped to identify default values in the ARIA attributes which I had not changed after copying the code from the Bootstrap documentation. It also identified that there were duplicate IDs across the Bootstrap card components and this was fixed.
 
-Test stories for features/functionality. Different screen sizes. Different browsers.
+The CSS was checked using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). There were no errors and 9 warnings. The 9 warnings were reviewed and could be ignored.
 
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+The website was tested during development on different screen sizes and devices using Chrome DevTools. The website was also tested on a Samsung A5, a 15 inch laptop and a widescreen monitor.
+
+All the links were checked to ensure they were working.
+
+During testing it was found that the website images could be slow to load, especially on poor connections. The images were reduced in size using Gimp to improve load times.
 
 ## Deployment
 The site is hosted using GitHub pages and is deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
