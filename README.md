@@ -5,6 +5,7 @@ The Recycle it Right website motivates and explains the key concepts behind deci
 
 ## Demo
 A live demo can be found [here](https://o-power.github.io/recycle-it-right/) on Github Pages.
+
 <img src="images/website_deviceframes.jpg" alt="Image of website on iPhone and iPad">
 
 ## UX
