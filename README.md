@@ -14,9 +14,8 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 ### User stories
 1. As a householder, I want to know how bad a problem contamination in recycling bins is so that I am motivated to recycle properly.
 2. As a householder, I want to know what condition items should be in before being placed in a recycling bin so that I can ensure my recycling bin is not contaminated.
-3. As a householder, I want to be able to explore a list of items so that I can see what is and isn't recyclable.
-4. As a householder, I want to be able to see an explanation of why items are/are not recyclable so that I can understand the reasoning behind the limited recycling list and apply this logic to items not on the list.
-5. As a householder, I want to be able to download a list of recyclable items so that I can refer to it when recycling.
+3. As a householder, I want to be able to navigate to a list of items so that I can see what is and isn't recyclable.
+4. As a householder, I want to be able to see an explanation of why items are/are not recyclable so that I can understand the logic.
 
 ## Technologies/Libraries
 1. HTML
@@ -29,6 +28,7 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 ## Features
 ### Existing
 - A navbar which has collapsed links on mobiles but expands on larger screens.
+- A shortcut icon.
 - A statistics section which has an animated arrow on medium and large screens to highlight that the user can scroll down. The animated arrow disappears on smaller screens.
 - An economics section which uses Font Awesome icons displayed vertically on mobiles but horizontally on larger screens.
 - A principle and a categories section with images that display vertically on small screens but display horizontally on medium and large screens.
@@ -39,8 +39,10 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 - Reduce the size of the images to improve their load speed. Or use a content delivery network (CDN).
 
 ## Testing
+The HTML was checked using the [W3C Markup Validation Service](https://validator.w3.org/). This helped to identify default values in the aria attributes which I had not changed after copying the code from the Bootstrap documentation.
+
 Test stories for features/functionality. Different screen sizes. Different browsers.
-[W3C Markup Validation Service](https://validator.w3.org/)
+
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
