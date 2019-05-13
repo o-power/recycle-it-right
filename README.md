@@ -28,9 +28,15 @@ Wireframes can be found in the [wireframes](https://github.com/o-power/recycle-i
 
 ## Features
 ### Existing
-- 
+- A navbar which has collapsed links on mobiles but expands on larger screens.
+- A statistics section which has an animated arrow on medium and large screens to highlight that the user can scroll down. The animated arrow disappears on smaller screens.
+- An economics section which uses Font Awesome icons displayed vertically on mobiles but horizontally on larger screens.
+- A principle and a categories section with images that display vertically on small screens but display horizontally on medium and large screens.
+- Recycling List pages which use the Bootstrap card component to display images of recyclable and non-recyclable items. In each card, additional information is contained in an accordion which has a plus sign to indicate to the user that it can be expanded. The plus sign changes to a minus sign when the accordion is expanded.
 ### Future
-- Reduce the size of the images to improve their load speed.
+- Add an About/Contact Us section to give more context to the website.
+- Add downloadable posters for home and office containing examples of recyclable waste.
+- Reduce the size of the images to improve their load speed. Or use a content delivery network (CDN).
 
 ## Testing
 Test stories for features/functionality. Different screen sizes. Different browsers.
@@ -53,3 +59,4 @@ To run locally, clone this repository directly into the editor of your choice by
 ### Acknowledgements
 - Jumping arrow animation inspired by [https://careers.adia.ae/](https://careers.adia.ae/) (accessed 3rd May 2019).
 - Shortcut icon generated using [Favicon Generator](https://realfavicongenerator.net/) (accessed 3rd May 2019).
+- The CSS for the plus/minus sign on the accordions was adapted from [w3schools.com](https://www.w3schools.com/howto/howto_js_accordion.asp) (accessed 13th May 2019).
